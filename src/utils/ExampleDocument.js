@@ -1,9 +1,11 @@
 const ExampleDocument = [
   {
-    type: "paragraph",
-    children: [
-      { text: "Hello World! This is my paragraph inside a sample document." },
-    ],
+    type: "h1",
+    children: [{ text: "Heading 1" }],
+  },
+  {
+    type: "h2",
+    children: [{ text: "Heading 2" }],
   },
 ];
 
