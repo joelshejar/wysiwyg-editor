@@ -19,7 +19,7 @@ function App() {
             className="d-inline-block align-top"
           />
           {""}
-          WYSIWYG Editor
+          WYSIWYG Editorrrr
         </Navbar.Brand>
       </Navbar>
       <div className="App">
