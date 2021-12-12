@@ -28,6 +28,7 @@ const Toolbar = (props) => {
       {CHARACTER_STYLES.map((style) => (
         <ToolBarButton
           key={style}
+          style={style}
           icon={<i className={`bi ${getIconForButton(style)}`} />}
           isActive={false}
         />
@@ -45,7 +46,7 @@ const ToolBarStyleButton = (props) => {
 };
 
 const ToolBarButton = (props) => {
-  const { icon, isActive, ...otherProps } = props;
+  const { style, icon, isActive, ...otherProps } = props;
 
   return (
     <Button
@@ -54,7 +55,7 @@ const ToolBarButton = (props) => {
       active={isActive}
       {...otherProps}
     >
-      {icon}
+      {style}
     </Button>
   );
 };
