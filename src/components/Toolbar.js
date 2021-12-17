@@ -14,7 +14,6 @@ const Toolbar = (props) => {
   return (
     <div className="toolbar">
       <DropdownButton
-        className={"block-style-dropdown"}
         disabled={false}
         title={getLabelForBlockStyle("paragraph")}
       >
